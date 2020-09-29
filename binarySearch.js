@@ -8,10 +8,10 @@ let testArray = [1, 2, 3, 4, 5, 6, 7, 8, 9, 12, 15, 16, 19, 24, 26, 39, 45]
 
 const binarySearch = function(arr, target) {
     let middleIndex = 0;
-    let newArr = testArray;
+    let newArr = arr;
     let index = 0;
 
-    for (let i = 0; i < testArray.length; i++) {
+    for (let i = 0; i < arr.length; i++) {
 
         middleIndex = Math.floor((newArr.length) / 2);
 
